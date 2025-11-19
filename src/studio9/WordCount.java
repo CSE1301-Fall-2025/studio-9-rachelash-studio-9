@@ -11,7 +11,7 @@ public class WordCount {
 	/**
 	 * Constructs and returns a map of the distinct words in the specified list with
 	 * each word associated with its accumulated count (that is: the number of
-	 * occurrences of the word in the list).
+	 * occurrences of the word in the list)
 	 * 
 	 * For example, if passed a List<String> containing:
 	 * 
@@ -31,8 +31,11 @@ public class WordCount {
 	public static Map<String, Integer> countWords(List<String> words) {
 
 		// FIXME
+		Map<String, Integer> m = new HashMap<>();
 		throw new NotYetImplementedException();
-
+		if(Map.containsKey()){
+			
+		}
 	}
 	
 	public static void main(String[] args) {
